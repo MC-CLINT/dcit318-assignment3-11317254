@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace FinanceManagementSystem.Models
 {
-    internal class Transaction
-    {
-    }
+    public record Transaction (
+        int Id,
+        DateTime Date,
+        decimal Amount,
+        string Category
+        );
 }
