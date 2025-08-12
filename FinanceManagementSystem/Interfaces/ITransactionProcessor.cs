@@ -9,6 +9,6 @@ namespace FinanceManagementSystem.Interfaces
 {
     internal interface ITransactionProcessor
     {
-        void Process(Transaction transaction);
+        void Process(decimal amount, string Category);
     }
 }
