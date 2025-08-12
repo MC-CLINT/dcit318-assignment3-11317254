@@ -6,22 +6,18 @@ using System.Threading.Tasks;
 
 public class Prescription
 {
-    private int v1;
-    private int v2;
-    private string v3;
-    private DateTime dateTime;
-
-    public Prescription(int v1, int v2, string v3, DateTime dateTime)
-    {
-        this.v1 = v1;
-        this.v2 = v2;
-        this.v3 = v3;
-        this.dateTime = dateTime;
-    }
-
+    public int Id { get; }
     public int PatientId { get; set; }
     public string MedicationName { get; set; }
     public DateTime DateIssued { get; set; }
+
+    public Prescription(int id, int patientId, string medicationName, DateTime dateIssued)
+    {
+        Id = id;
+        PatientId = patientId;
+        MedicationName = medicationName;
+        DateIssued = dateIssued;
+    }
 
     public override string ToString()
     {

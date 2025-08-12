@@ -18,6 +18,12 @@ namespace HealthCareSystem.Models
             Id = id;
             PatientId = patientId;
             MedicationName = medicationName;
-            DateIssued = dateIssued;        }
+            DateIssued = dateIssued;        
+        }
+
+        public override string ToString()
+        {
+            return $"{MedicationName} issued on {DateIssued.ToShortDateString()}";
+        }
     }
 }
