@@ -6,6 +6,19 @@ using System.Threading.Tasks;
 
 public class Prescription
 {
+    private int v1;
+    private int v2;
+    private string v3;
+    private DateTime dateTime;
+
+    public Prescription(int v1, int v2, string v3, DateTime dateTime)
+    {
+        this.v1 = v1;
+        this.v2 = v2;
+        this.v3 = v3;
+        this.dateTime = dateTime;
+    }
+
     public int PatientId { get; set; }
     public string MedicationName { get; set; }
     public DateTime DateIssued { get; set; }
@@ -20,7 +33,7 @@ public class PrescriptionManager
 {
     private Dictionary<int, List<Prescription>> _prescriptionMap = new();
 
-    // Populate the dictionary from a flat list
+   
     public void LoadPrescriptions(List<Prescription> allPrescriptions)
     {
         _prescriptionMap = allPrescriptions
@@ -28,7 +41,7 @@ public class PrescriptionManager
             .ToDictionary(g => g.Key, g => g.ToList());
     }
 
-    // Retrieve prescriptions for a specific patient
+   
     public List<Prescription> GetPrescriptionsByPatientId(int patientId)
     {
         if (_prescriptionMap.TryGetValue(patientId, out var prescriptions))
