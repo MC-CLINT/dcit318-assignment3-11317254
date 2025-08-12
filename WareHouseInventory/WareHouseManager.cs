@@ -71,7 +71,7 @@ namespace WareHouseInventory
             }
         }
 
-        // Optional: expose access to repositories if needed
+        
         public InventoryRepository<ElectronicItem> ElectronicsRepo => _electronics;
         public InventoryRepository<GroceryItem> GroceriesRepo => _groceries;
     }
