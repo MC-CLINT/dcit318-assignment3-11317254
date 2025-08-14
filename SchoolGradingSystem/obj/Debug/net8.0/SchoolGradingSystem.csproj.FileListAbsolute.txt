@@ -1,0 +1,15 @@
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\bin\Debug\net8.0\SchoolGradingSystem.exe
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\bin\Debug\net8.0\SchoolGradingSystem.deps.json
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\bin\Debug\net8.0\SchoolGradingSystem.runtimeconfig.json
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\bin\Debug\net8.0\SchoolGradingSystem.dll
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\bin\Debug\net8.0\SchoolGradingSystem.pdb
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.GeneratedMSBuildEditorConfig.editorconfig
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.AssemblyInfoInputs.cache
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.AssemblyInfo.cs
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.csproj.CoreCompileInputs.cache
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.sourcelink.json
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.dll
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\refint\SchoolGradingSystem.dll
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.pdb
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\SchoolGradingSystem.genruntimeconfig.cache
+F:\DCIT 318-ASSIGNMENTS\dcit318-assignment3-11317254\SchoolGradingSystem\obj\Debug\net8.0\ref\SchoolGradingSystem.dll

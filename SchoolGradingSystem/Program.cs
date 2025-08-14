@@ -18,11 +18,19 @@
             }
             catch (FileNotFoundException ex)
             { 
-                Console.WriteLine("File Not Found"); 
+                Console.WriteLine($"File Not Found: { ex.Message}"); 
             }
-            catch (FormatException ex)
+            catch (InvalidScoreFormatException ex)
             {
-
+                  Console.WriteLine($"Invalid Score Format: {ex.Message}");
+            }
+            catch (MissingFieldException ex)
+            {
+                Console.WriteLine($"Missing Field in Record: {ex.Message}");
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine($"Unexpected Error: {ex.Message}");
             }
 
         }
