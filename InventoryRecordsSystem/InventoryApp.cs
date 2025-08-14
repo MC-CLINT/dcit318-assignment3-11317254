@@ -11,8 +11,10 @@ namespace InventoryRecordsSystem
     {
         private readonly InventoryLogger<InventoryItem> _logger;
 
+        private string filePath;
         public InventoryApp(string filePath)
         {
+            this.filePath = filePath;
             _logger = new InventoryLogger<InventoryItem>(filePath);
         }
 

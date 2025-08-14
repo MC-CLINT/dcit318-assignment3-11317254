@@ -1,0 +1,32 @@
+[
+  {
+    "Id": 1,
+    "Name": "Dell Laptop",
+    "Quantity": 40,
+    "DateAdded": "2025-08-14T15:47:26.280554+00:00"
+  },
+  {
+    "Id": 2,
+    "Name": "Optical Mouse",
+    "Quantity": 50,
+    "DateAdded": "2025-08-14T15:47:26.2828815+00:00"
+  },
+  {
+    "Id": 3,
+    "Name": "Iphone Type C Cables",
+    "Quantity": 10,
+    "DateAdded": "2025-08-14T15:47:26.2828861+00:00"
+  },
+  {
+    "Id": 4,
+    "Name": "HP System Units",
+    "Quantity": 25,
+    "DateAdded": "2025-08-14T15:47:26.2828863+00:00"
+  },
+  {
+    "Id": 5,
+    "Name": "USB and Printer Cables",
+    "Quantity": 100,
+    "DateAdded": "2025-08-14T15:47:26.2828865+00:00"
+  }
+]
