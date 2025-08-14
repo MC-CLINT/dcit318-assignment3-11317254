@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace InventoryRecordsSystem
 {
@@ -15,6 +16,17 @@ namespace InventoryRecordsSystem
             public int Quantity { get; init; }
             public DateTime DateAdded { get; init; }
 
+
+            public InventoryItem(int id, string name, int quantity, DateTime dateAdded)
+            {
+                Id = id;
+                Name = name;
+                Quantity = quantity;
+                DateAdded = dateAdded;
+            }
+
         }
+
+       
     }
 }
