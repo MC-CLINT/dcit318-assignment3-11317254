@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace SchoolGradingSystem
 {
-    internal class MissingFieldException
+    public class MissingFieldException : Exception
     {
+        public MissingFieldException(String message) 
+        :base(message)
+        
+        {
+        }
     }
 }

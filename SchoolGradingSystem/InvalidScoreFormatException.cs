@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace SchoolGradingSystem
 {
-    internal class InvalidScoreFormatException
+    public class InvalidScoreFormatException : Exception
     {
+        public InvalidScoreFormatException(string message)
+        :base(message)
+        {
+        }
     }
 }
