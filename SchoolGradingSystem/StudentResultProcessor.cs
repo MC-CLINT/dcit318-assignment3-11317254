@@ -44,20 +44,31 @@ namespace SchoolGradingSystem
                         Console.WriteLine($"Error processing line {lineNumber}: {ex.Message}");
                     }
                 }
+                Console.WriteLine($"\n Valid students loaded: {students.Count}");
                 return students;
             }
 
+
+
         }
+
+
+
         public void WriteReportToFile(List<Student> students, string outputFilePath)
         {
-            using (var writer = new StreamWriter(outputFilePath))
+            using (StreamWriter writer = new StreamWriter(outputFilePath))
             {
+                writer.WriteLine("Student Report");
+
                 foreach (var student in students)
                 {
-                    string summary = $"{student.FullName} (ID: {student.Id}): Score={student.Score}, Grade = {student.GetGrade()}";
+                    writer.WriteLine($"ID: {student.Id}, Name: {student.FullName}, Score: {student.Score}");
                 }
-                Console.WriteLine($"\n Report Written to: {outputFilePath}");
+
+               
             }
+
+            Console.WriteLine($"Report successfully written to: {Path.GetFullPath(outputFilePath)}");
         }
     }
 

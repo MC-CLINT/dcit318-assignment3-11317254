@@ -1,4 +1,7 @@
 Student Report
+====================
 ID: 101, Name: Clinton Kwaku, Score: 84
 ID: 102, Name: Akua Pokuaa, Score: 76
 ID: 103, Name: Matthew Mensah, Score: 92
+====================
+Total Students: 3

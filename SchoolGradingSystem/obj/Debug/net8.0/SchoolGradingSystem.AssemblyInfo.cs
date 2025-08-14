@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolGradingSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e6d2293f7457ac7a23ed9bc69d58d198aaf93eef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ffaa1bcc1510fb2ded63e080951c3ed347ddca7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolGradingSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolGradingSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

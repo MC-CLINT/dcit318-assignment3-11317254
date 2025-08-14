@@ -4,9 +4,9 @@
     {
         static void Main(string[] args)
         {
-            string inputFilePath = "students.txt";
+            string inputFilePath = "F:\\DCIT 318-ASSIGNMENTS\\dcit318-assignment3-11317254\\SchoolGradingSystem\\student.txt";
 
-            string outputFilePath = "report.txt";
+            string outputFilePath = "F:\\DCIT 318-ASSIGNMENTS\\dcit318-assignment3-11317254\\SchoolGradingSystem\\report.txt";
 
             var processor = new StudentResultProcessor();
 
